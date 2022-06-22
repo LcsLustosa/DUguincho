@@ -1,0 +1,63 @@
+.midias-containers {
+  background-color: #8c8b8c60;
+
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.midias-containers > h1 {
+  color: #000;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.midias {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.midias > a {
+  color: #000;
+  font-size: 2.5rem;
+  text-decoration: none;  
+}
+
+.midias > a:hover {
+  color: #0dd954;
+}
+
+.midias > i {
+  width: 70px;
+  height: 70px;    
+}
+
+.midias > h2 {
+  color: #000;
+  font-size: 2.3rem;
+}
+
+.fa-facebook-square {
+  padding: 15px;
+  color: #3b5998;
+}
+
+.fa-instagram-square {
+  padding: 15px;
+  color: #C13584;
+}
+
+.midias-iphone > img {
+ height: 500px;
+
+}
+
